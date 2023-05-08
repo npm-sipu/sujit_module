@@ -1,0 +1,16 @@
+custom_module.hello_world:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\custom_module\Controller\CustomController::hello'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+
+
+view.view_page.page_1:
+  path: '/view-page'
+  defaults:
+    _title: 'View Page'
+    _view: 'page_1'
+  requirements:
+    _permission: 'access administration pages'

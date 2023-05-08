@@ -1,0 +1,11 @@
+custom_module.hello_world:
+  route_name: custom_module.hello_world
+  title : controller page
+  base_route: view.view_page.page_1
+  weight: 11
+
+view.view_page.page_1:
+  route_name: view.view_page.page_1
+  title : view page
+  base_route: view.view_page.page_1
+  weight: 10

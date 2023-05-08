@@ -1,0 +1,9 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+
+function new_module_form_alter(&$form,FormStateInterface $form_state, $form_id) {
+
+    $route= \Drupal::routeMatch()->getRouteName();
+    print_r($route);
+    exit;
+}

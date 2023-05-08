@@ -1,0 +1,6 @@
+custom_module.view_page:
+  title: 'View Page'
+  description: 'View Page description'
+  route_name: view.view_page.page_1
+  parent: system.admin_config
+  weight: 100

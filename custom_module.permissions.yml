@@ -1,0 +1,7 @@
+custom module controller permission:
+  title: Hello Page permission
+  description: description for hello world permission
+
+access administration pages:
+  title: 'Access administration pages'
+  restrict access: true

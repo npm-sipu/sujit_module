@@ -1,0 +1,15 @@
+custom_module.page:
+  route_name: "node.add"
+  title: "Add page"
+  appears_on:
+    - "view.view_page.page_1"
+  route_parameters:
+    node_type: page
+
+custom_module.hello_button:
+  route_name: "custom_general.hello_world"
+  title: "Hello World"
+  appears_on:
+    - "system.admin"
+  route_parameters:
+    node_type: page
